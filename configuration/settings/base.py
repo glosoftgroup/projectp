@@ -162,6 +162,7 @@ LOGGING = {
 
 ROLEPERMISSIONS_MODULE = 'configuration.settings.roles'
 
+
 def configure_structlog(environment):
     structlog_processors = [
         structlog.stdlib.add_logger_name,
